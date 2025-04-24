@@ -1,0 +1,141 @@
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install django
+
+python.exe -m pip install --upgrade pip
+
+django-admin startproject ecom_api
+>>> This creates the folder structure like:
+        ecom_project/
+        └── backend/
+            ├── venv/
+            └── ecom_api/
+                ├── manage.py
+                └── ecom_api/
+                    ├── __init__.py
+                    ├── asgi.py
+                    ├── settings.py
+                    ├── urls.py
+                    └── wsgi.py
+
+cd ecom_api
+python manage.py runserver
+
+python manage.py migrate
+
+python manage.py createsuperuser
+            Username  admin
+            
+            Email  admin@gmail.com
+            
+            Password  admin
+
+
+python manage.py startapp shop
+python manage.py startapp products
+python manage.py startapp users
+python manage.py startapp orders
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+
+
+Step 1: Frontend Folder Structure
+Let’s assume you want to place the React app inside your project like this:
+ecom_project/
+├── backend/         # Django backend
+└── frontend/        # React frontend (new)
+
+Step 2: Create the React App
+Open a new terminal (or deactivate the Django venv) and run:
+cd ecom_project
+npx create-react-app frontend
+
+cd frontend
+npm start
+
+
+cd E-Commerce-AI-powered-UX-Project/ecom_api/frontend
+rm -rf node_modules
+npm install
+npm start
+
+pip install django-cors-headers
+python -m pip install django-cors-headers
+
+cd ecom_project/backend/ecom_api
+python manage.py runserver
+
+cd ecom_project/frontend
+npm start
+
+Reinstall react-scripts
+      npm install react-scripts@5.0.1 --save-dev
+      npm start
+
+
+✅ User Registration
+
+✅ Login to receive a token
+
+✅ Protected endpoints using JWT
+
+✅ Optional: Token refresh/logout
+
+Use double quotes correctly in CMD or PowerShell
+Try quoting the full command like this:
+
+& "venv\Scripts\python.exe" -m pip install djangorestframework-simplejwt
+Or escape the ampersand:
+
+& 'venv\Scripts\python.exe' -m pip install djangorestframework-simplejwt
+
+Install JWT Authentication
+Install Django REST Framework SimpleJWT:
+pip install djangorestframework-simplejwt
+
+Install Axios
+If you don’t have Axios installed, do so first by running:
+npm install axios
+
+Install React Router. Since your code uses <Switch>, we’ll stick with v5:
+npm install react-router-dom@5
+If you’d prefer the latest v6 API, you can instead run:
+npm install react-router-dom
+
+(Optional) Recreate the venv
+If you’d rather have a clean, consistently wired environment, you can remove and rebuild it:
+
+powershell
+Copy
+Edit
+# 1. Deactivate venv (if active)
+deactivate
+
+# 2. Delete the old venv
+Remove-Item -Recurse -Force .\venv
+
+# 3. Recreate it
+python -m venv venv
+
+# 4. Activate
+.\venv\Scripts\Activate.ps1
+
+# 5. Install your packages
+python -m pip install django djangorestframework djangorestframework-simplejwt
+
+
+cd ecom_api
+python manage.py startapp accounts
+
+
+pending
+Set up a PostgreSQL database
+Build a shopping cart? Set up login/registration? Use Redux or Context API for global state? Deploy both Django + React on a single domain?
+https://chatgpt.com/c/680a6e31-4038-800c-95b5-ba24cab90556
+https://chatgpt.com/c/680a72d3-7e50-800c-bdd4-15b121cc89b9
+
