@@ -1,0 +1,35 @@
+# Built With
+
+## **Programming Languages**
+- **Python** – Backend logic and AI-powered recommendations.
+- **JavaScript** – Dynamic UI and frontend interactions.
+- **HTML & CSS** – Structuring and styling the web interface.
+
+## **Frameworks & Libraries**
+- **Django** – Backend framework for managing authentication, database interactions, and business logic.
+- **Django REST Framework (DRF)** – API development for AI recommendations and e-commerce functionalities.
+- **React.js** – Frontend framework for an intuitive and dynamic user experience.
+- **TensorFlow & Scikit-learn** – AI-powered recommendation engine.
+- **Bootstrap/Tailwind CSS** – Responsive design for better UI.
+
+## **Database & Storage**
+- **PostgreSQL/MySQL** – Structured database for storing products, user data, and order history.
+- **Redis** – Caching for faster response times.
+- **Elasticsearch** – Optimized product search and filtering.
+
+## **Cloud & Hosting**
+- **AWS (EC2, S3, RDS)** – Scalable deployment and storage.
+- **Docker & Kubernetes** – Containerized application for efficient scaling.
+- **Heroku/DigitalOcean** – Alternative hosting solutions.
+
+## **APIs & Integrations**
+- **Stripe/Razorpay** – Payment gateway integration.
+- **Google OAuth** – Secure authentication via social login.
+- **Firebase** – Real-time analytics and user behavior tracking.
+
+## **Security & Performance**
+- **SSL/TLS Encryption** – Secure transactions and data protection.
+- **Two-Factor Authentication (2FA)** – Enhanced login security.
+- **Audit Logging** – Tracking system access and user actions.
+
+Would you like detailed guidance on how to integrate any of these components? 🚀
